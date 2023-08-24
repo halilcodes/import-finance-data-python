@@ -1,8 +1,9 @@
 import pandas as pd
-import plotly.express as plt
+import plotly.express as px
 
 df = pd.read_csv("MSFT.csv")
 
-print(df.head())
+# print(df.head())
 
-plt.line(x=df['Date'], y=df['Close'])
+fig = px.line(x=df['Date'], y=df['Adj Close'])
+fig.show()
