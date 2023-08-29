@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97cf921b-a27e-4c57-b942-59d4cab15c12" name="Changes" comment="begin anaconda environment">
-      <change afterPath="$PROJECT_DIR$/yahoo-finance/yahoofinance2.py" afterDir="false" />
+    <list default="true" id="97cf921b-a27e-4c57-b942-59d4cab15c12" name="Changes" comment="finish yfinance, begin alpha vintage">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/yfinance.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/templates/yfinance.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yahoo-finance/.ipynb_checkpoints/YahooFinance2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/yahoo-finance/.ipynb_checkpoints/YahooFinance2-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yahoo-finance/MSFT.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yahoo-finance/YahooFinance2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/yahoo-finance/YahooFinance2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alpha-vantage/IBM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/alpha-vantage/IBM.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alpha-vantage/alphaVantage1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/alpha-vantage/alphaVantage1.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/halil/Desktop/Coding_2023/Courses/ardit-oop-examples/App-6-Project-Calorie-Webapp&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -54,7 +52,28 @@
       <recent name="C:\Users\halil\Desktop\Coding_2023\Courses\ardit_mega_course\import-finance-data-python\yahoo-finance" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.yahoofinance2">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="import-finance-data-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="yahoo_finance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="import-finance-data-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.yahoofinance2" />
         <item itemvalue="Python.yahoo_finance" />
       </list>
@@ -120,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692884106662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finish yfinance, begin alpha vintage">
+      <created>1692974712039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692974712039</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +163,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="begin anaconda environment" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin anaconda environment" />
+    <MESSAGE value="finish yfinance, begin alpha vintage" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish yfinance, begin alpha vintage" />
   </component>
 </project>
